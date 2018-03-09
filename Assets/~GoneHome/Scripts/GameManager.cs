@@ -16,7 +16,7 @@ namespace GoneHome
         public void ResetLevel()
         {
             //Grab all enemies and reset them
-            Enemy[] enemies = FindObjectsOfType<Enemy>();
+            FollowEnemy[] enemies = FindObjectsOfType<FollowEnemy>();
             //Loop through all enemies and reset them
             for (int i = 0; i < enemies.Length; i++)
             {
@@ -26,7 +26,5 @@ namespace GoneHome
             Player player = FindObjectOfType<Player>();
             player.Reset();
         }
-        
-    
     }
 }
