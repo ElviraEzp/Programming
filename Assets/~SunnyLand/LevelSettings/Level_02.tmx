@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="2018.02.14" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="16" tileheight="16" infinite="0" nextobjectid="78">
+<map version="1.0" tiledversion="2018.02.14" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="16" tileheight="16" infinite="0" nextobjectid="105">
  <tileset firstgid="1" source="SunnyLand.tsx"/>
  <layer name="Background" width="100" height="100">
   <data encoding="csv">
@@ -313,88 +313,66 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup name="Ground_Collision" visible="0">
-  <object id="1" x="160" y="528">
-   <polyline points="0,0 144,0"/>
-  </object>
-  <object id="2" x="321.333" y="608">
-   <polyline points="0,0 158.667,0"/>
-  </object>
-  <object id="3" x="513.333" y="526.667">
-   <polyline points="0,0 158.667,1.33333"/>
-  </object>
-  <object id="4" x="704" y="608">
-   <polyline points="0,0 160,0"/>
-  </object>
-  <object id="6" x="16" y="96" width="288" height="16"/>
-  <object id="8" x="496" y="192" width="176" height="16"/>
-  <object id="9" x="672" y="208" width="32" height="16"/>
-  <object id="10" x="704" y="224" width="32" height="16"/>
-  <object id="11" x="736" y="240" width="64" height="16"/>
-  <object id="12" x="800" y="224" width="32" height="16"/>
-  <object id="13" x="832" y="208" width="32" height="16"/>
-  <object id="15" x="992" y="384" width="416" height="16"/>
-  <object id="16" x="400" y="464" width="432" height="16"/>
-  <object id="17" x="306.667" y="97.3333">
-   <polyline points="0,0 189.333,94.6667"/>
-  </object>
-  <object id="18" x="990.667" y="384">
-   <polyline points="0,0 -158.667,80"/>
-  </object>
-  <object id="21" x="928" y="608" width="16" height="16"/>
-  <object id="22" x="944" y="592" width="64" height="16"/>
-  <object id="23" x="1008" y="576" width="16" height="16"/>
-  <object id="24" x="1024" y="560" width="16" height="16"/>
-  <object id="25" x="1040" y="544" width="16"/>
-  <object id="26" x="1056" y="528" width="16" height="16"/>
-  <object id="27" x="1072" y="512" width="32" height="16"/>
-  <object id="28" x="1104" y="528" width="32" height="16"/>
-  <object id="29" x="1136" y="512" width="32" height="16"/>
-  <object id="31" x="1168" y="528" width="16" height="16"/>
-  <object id="33" x="1184" y="544" width="16" height="16"/>
-  <object id="34" x="1200" y="560" width="16" height="16"/>
-  <object id="35" x="1216" y="576" width="16" height="16"/>
-  <object id="36" x="1232" y="592" width="64" height="16"/>
-  <object id="38" x="864" y="192" width="336" height="16"/>
-  <object id="39" x="1216" y="192" width="64" height="16"/>
-  <object id="40" x="1424" y="608" width="96" height="16"/>
-  <object id="41" x="928" y="608" width="480" height="16"/>
-  <object id="42" x="928" y="752" width="32" height="16"/>
-  <object id="43" x="896" y="768" width="32" height="16"/>
-  <object id="44" x="832" y="784" width="64" height="16"/>
-  <object id="45" x="1280" y="752" width="32" height="16"/>
-  <object id="46" x="1312" y="768" width="32" height="16"/>
-  <object id="47" x="1344" y="784" width="64" height="16"/>
-  <object id="48" x="1040" y="864" width="16" height="16"/>
-  <object id="49" x="1072" y="864" width="416" height="16"/>
-  <object id="50" x="1120" y="848" width="32" height="16"/>
-  <object id="51" x="1312" y="848" width="32" height="16"/>
-  <object id="52" x="928" y="992" width="496" height="16"/>
-  <object id="53" x="1008" y="1152">
+ <objectgroup name="PlatformCollision">
+  <object id="95" x="1008" y="1152">
    <polyline points="0,0 208,0"/>
   </object>
-  <object id="54" x="1072" y="1216">
+  <object id="96" x="1072" y="1216">
    <polyline points="0,0 304,0"/>
   </object>
-  <object id="55" x="1376" y="1200" width="16" height="16"/>
-  <object id="56" x="1392" y="1184" width="16" height="16"/>
-  <object id="57" x="1408" y="1168" width="16" height="16"/>
-  <object id="58" x="1424" y="1152" width="16" height="16"/>
-  <object id="59" x="1440" y="1136" width="16" height="16"/>
-  <object id="60" x="1456" y="1120" width="16" height="16"/>
-  <object id="61" x="1472" y="1104" width="16" height="16"/>
-  <object id="62" x="1488" y="1088" width="16" height="16"/>
-  <object id="63" x="1504" y="1072" width="16" height="16"/>
-  <object id="64" x="1520" y="1056" width="16" height="16"/>
-  <object id="65" x="1536" y="1040" width="16" height="16"/>
-  <object id="66" x="1552" y="1024" width="16" height="16"/>
-  <object id="67" x="1568" y="1008" width="32" height="16"/>
-  <object id="68" x="1056" y="176" width="144" height="16"/>
+  <object id="97" x="704" y="608">
+   <polyline points="0,0 160,0"/>
+  </object>
+  <object id="98" x="512" y="528">
+   <polyline points="0,0 160,0"/>
+  </object>
+  <object id="99" x="320" y="608">
+   <polyline points="0,0 160,0"/>
+  </object>
+  <object id="100" x="160" y="528">
+   <polyline points="0,0 144,0"/>
+  </object>
+  <object id="101" x="656" y="192">
+   <polyline points="0,0 16,0 16,16 48,16 48,32 80,32 80,48 144,48 144,32 176,32 176,16 208,16 208,0 224,0"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="GroundCollision">
+  <object id="78" x="16" y="96">
+   <polyline points="0,0 64,0 64,560 0,560 0,0"/>
+  </object>
+  <object id="79" x="96" y="96">
+   <polyline points="0,0 208,0 400,96 560,96 560,224 160,224 64,320 64,560 0,560 0,0"/>
+  </object>
+  <object id="80" x="1408" y="32">
+   <polyline points="0,0 176,0 176,368 96,448 -176,448 -176,432 -224,432 -224,416 -240,416 -240,400 -336,400 -336,416 -352,416 -352,432 -400,432 -400,448 -1008,448 -1008,432 -912,432 -912,416 -896,416 -896,400 -880,400 -880,384 -864,384 -864,368 -784,368 -784,384 -768,384 -768,400 -752,400 -752,416 -736,416 -736,432 -576,432 -416,352 0,352 32,320 32,304 48,304 48,272 64,272 64,240 80,240 80,96 64,96 64,64 48,64 48,48 32,48 32,32 0,0"/>
+  </object>
+  <object id="81" x="928" y="608">
+   <polyline points="0,0 0,16 480,16 480,0 368,0 368,-16 304,-16 304,-32 288,-32 288,-48 272,-48 272,-64 256,-64 256,-80 240,-80 240,-96 208,-96 208,-80 176,-80 176,-96 144,-96 144,-80 128,-80 128,-64 112,-64 112,-48 96,-48 96,-32 80,-32 80,-16 16,-16 16,0 0,0"/>
+  </object>
+  <object id="82" x="1424" y="608" width="96" height="16"/>
+  <object id="83" x="1040" y="864" height="16"/>
+  <object id="84" x="1072" y="864" width="416" height="16"/>
+  <object id="85" x="1120" y="848" width="32" height="16"/>
+  <object id="87" x="1312" y="848" width="32" height="16"/>
+  <object id="88" x="928" y="992" width="496" height="32"/>
+  <object id="89" x="1424" y="1008" width="16" height="16"/>
+  <object id="90" x="928" y="1024" width="16" height="256"/>
+  <object id="91" x="944" y="1264" width="656" height="16"/>
+  <object id="92" x="1584" y="1008" width="16" height="256"/>
+  <object id="94" x="1584" y="1008">
+   <polyline points="0,0 -16,0 -16,16 -32,16 -32,32 -48,32 -48,48 -64,48 -64,64 -80,64 -80,80 -96,80 -96,96 -112,96 -112,112 -128,112 -128,128 -144,128 -144,144 -160,144 -160,160 -176,160 -176,176 -192,176 -192,192 -208,192 -208,208 -192,208 -192,192 -176,192 -176,176 -160,176 -160,160 -144,160 -144,144 -128,144 -128,128 -112,128 -112,112 -96,112 -96,96 -80,96 -80,80 -64,80 -64,64 -48,64 -48,48 -32,48 -32,32 0,32 0,0"/>
+  </object>
+  <object id="102" x="960" y="752">
+   <polyline points="0,0 -32,0 -32,16 -64,16 -64,32 -128,32 -128,64 -32,64 -32,48 0,48 0,0"/>
+  </object>
+  <object id="103" x="1280" y="752">
+   <polyline points="0,0 32,0 32,16 64,16 64,32 128,32 128,64 32,64 32,48 0,48 0,0"/>
+  </object>
  </objectgroup>
  <objectgroup name="Ladder_Collision">
-  <object id="70" x="1200" y="176" width="16" height="208"/>
-  <object id="72" x="1408" y="592" width="16" height="272"/>
-  <object id="73" x="1056" y="848" width="16" height="144"/>
-  <object id="77" x="80" y="80" width="16" height="880"/>
+  <object id="70" x="1200" y="176" width="16" height="192"/>
+  <object id="72" x="1408" y="592" width="16" height="256"/>
+  <object id="73" x="1056" y="848" width="16" height="128"/>
+  <object id="77" x="80" y="80" width="16" height="864"/>
  </objectgroup>
 </map>

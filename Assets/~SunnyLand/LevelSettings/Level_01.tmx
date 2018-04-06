@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="2018.02.14" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="16" tileheight="16" infinite="0" nextobjectid="21">
+<map version="1.0" tiledversion="2018.02.14" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="16" tileheight="16" infinite="0" nextobjectid="43">
  <tileset firstgid="1" source="SunnyLand.tsx"/>
  <layer name="Background" width="100" height="100">
   <data encoding="csv">
@@ -314,33 +314,28 @@
 </data>
  </layer>
  <objectgroup name="GroundCollision">
-  <object id="4" x="432" y="448">
-   <polyline points="0,0 272,0"/>
+  <object id="29" x="576" y="272" width="64" height="16"/>
+  <object id="30" x="656" y="272" width="528" height="16"/>
+  <object id="31" x="960" y="400" width="288" height="16"/>
+  <object id="32" x="768" y="544" width="240" height="16"/>
+  <object id="33" x="1120" y="544" width="224" height="16"/>
+  <object id="34" x="368" y="608">
+   <polygon points="0,0 -16,0 -16,16 -32,16 -32,32 -48,32 -48,48 -64,48 -64,64 -80,64 -80,80 -96,80 -96,176 16,176 16,192 48,192 48,208 80,208 80,224 112,224 112,240 144,240 144,256 992,256 992,48 800,48 768,80 416,80 336,0"/>
   </object>
-  <object id="5" x="768" y="544">
-   <polyline points="0,0 576,0"/>
-  </object>
-  <object id="7" x="704" y="608">
-   <polyline points="0,0 80,80"/>
-  </object>
-  <object id="8" x="1136" y="688">
-   <polyline points="0,0 32,-32"/>
-  </object>
-  <object id="9" x="368" y="608" width="336" height="16"/>
-  <object id="10" x="768" y="688" width="368" height="16"/>
-  <object id="11" x="1168" y="656" width="192" height="16"/>
-  <object id="17" x="144" y="816">
-   <polyline points="0,0 80,0"/>
-  </object>
-  <object id="18" x="256" y="880">
+  <object id="35" x="144" y="816" width="80" height="16"/>
+  <object id="36" x="256" y="880" width="112" height="16"/>
+  <object id="37" x="384" y="944" width="304" height="16"/>
+  <object id="38" x="1008" y="544">
    <polyline points="0,0 112,0"/>
   </object>
-  <object id="19" x="384" y="944">
-   <polyline points="0,0 304,0"/>
+  <object id="39" x="144" y="928">
+   <polyline points="0,0 16,0 16,16 32,16 32,32 48,32 48,48 64,48 64,64 80,64 80,80 1216,80 1216,96 80,96 80,80 64,80 64,64 48,64 48,48 32,48 32,32 16,32 16,16 0,16 0,0"/>
   </object>
-  <object id="20" x="224" y="1008" width="1136" height="16"/>
+  <object id="41" x="432" y="448" width="48" height="16"/>
+  <object id="42" x="496" y="448" width="208" height="16"/>
  </objectgroup>
  <objectgroup name="LadderCollision">
-  <object id="12" x="480" y="448" width="16" height="160"/>
+  <object id="22" x="480" y="432" width="16" height="160"/>
+  <object id="23" x="640" y="256" width="16" height="176"/>
  </objectgroup>
 </map>
