@@ -9,7 +9,6 @@ namespace GoneHome
     public class FollowEnemy : MonoBehaviour
     {
         public Transform target;
-
         private NavMeshAgent agent;
 
         private Vector3 spawnPoint;
@@ -27,6 +26,7 @@ namespace GoneHome
         {
             agent.SetDestination(target.position);
         }
+
         public void Reset()
         {
             agent.enabled = false;

@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 namespace GoneHome
-
 {
     public class DestroyOnLifeTime : MonoBehaviour
     {
