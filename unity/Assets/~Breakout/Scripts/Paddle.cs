@@ -6,17 +6,19 @@ namespace Breakout
 {
     public class Paddle : MonoBehaviour
     {
-        public float movemnentSpeed = 10;
+        public float movemnentSpeed = 20f;
         public Ball currentBall; //Reference to ball for firing
-        public Vector3[] directions =
-        {
-            new Vector2(-1f, 1f),
-            new Vector2( 1f, 1f)
-        };
+        // Directions array defaults to two values
+        public Vector2[] directions = new Vector2[]
+    {
+            new Vector2(-0.5f, 0.5f),
+            new Vector2(0.5f, 0.5f)
+    };
 
         // Use this for initialization
         void Start()
         {
+            // Grabs currentBall from children of the Paddle
             currentBall = GetComponentInChildren<Ball>();
         }
 
@@ -45,10 +47,13 @@ namespace Breakout
             // Get horizontal axis
             float inputH = Input.GetAxis("Horizontal");
             // Create a force using horizontal input
-            Vector3 force = transform.right * inputH; // Left/Right movement
-            force *= movemnentSpeed; // Add movement speed
-            force *= Time.deltaTime; //Apply deltaTime
-            transform.position += force; //Apply to transform
+            Vector3 force = transform.right * inputH;
+            // Add movement speed
+            force *= movemnentSpeed;
+            //Apply deltaTime to force
+            force *= Time.deltaTime;
+            //Apply to transform
+            transform.position += force;
         }
 
         // Update is called once per frame
