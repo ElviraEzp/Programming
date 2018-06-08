@@ -7,7 +7,7 @@ public class BucketScript : MonoBehaviour
     public float movementSpeed = 10.0f;
 
     private Rigidbody2D rigid2D;
-    private Renderer[] rendereres;
+    private Renderer[] renderers;
 
     // Use this for initialization
     void Start()
