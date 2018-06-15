@@ -4,7 +4,6 @@ using UnityEngine;
 
 namespace RollABall
 {
-
     public class CameraController : MonoBehaviour
     {
         public GameObject player;

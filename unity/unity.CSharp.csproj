@@ -148,6 +148,8 @@
     <Compile Include="Assets\~AHundredBalls\Scripts\BucketScript.cs" />
     <Compile Include="Assets\~AHundredBalls\Scripts\PaddleScript.cs" />
     <Compile Include="Assets\~AHundredBalls\Scripts\SpawnerScript.cs" />
+    <Compile Include="Assets\~Assessment1\Scripts\CoinScript.cs" />
+    <Compile Include="Assets\~Assessment1\Scripts\Collector.cs" />
     <Compile Include="Assets\~Asteroids\Scripts\AsteroidSpawner.cs" />
     <Compile Include="Assets\~Asteroids\Scripts\Movement.cs" />
     <Compile Include="Assets\~Asteroids\Scripts\Moving.cs" />
